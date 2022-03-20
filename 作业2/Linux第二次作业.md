@@ -44,9 +44,7 @@ tmux:sudo apt update && sudo apt install tmux
 
 tshark:sudo apt-get install tshark
 
-[![tmux和tshark的下载安装](https://asciinema.org/a/z9q56AQo36wl5S7WjX7NZgEoE.svg)](https://asciinema.org/a/z9q56AQo36wl5S7WjX7NZgEoE)
-
-https://asciinema.org/a/Fhl97XnAens9oDQyvkZQsmpKh)
+[![asciicast](https://asciinema.org/a/477727.svg)](https://asciinema.org/a/477727)
 
 
 
@@ -56,7 +54,7 @@ dpkg -L tmux
 
 dpkg -L tshark
 
-[![查看两个软件的安装路径](https://asciinema.org/a/GbhzcNchsEHwUKsHl4njnyrhw.svg)](https://asciinema.org/a/GbhzcNchsEHwUKsHl4njnyrhw)
+[![asciicast](https://asciinema.org/a/477735.svg)](https://asciinema.org/a/477735)
 
 
 
@@ -66,7 +64,7 @@ apt-get --purge remove tshark
 
 apt-get autoremove tshark
 
-[![卸载tshark](https://asciinema.org/a/xWqjLefJXU1e7swzcxA9oiskC.svg)](https://asciinema.org/a/xWqjLefJXU1e7swzcxA9oiskC)
+[![asciicast](https://asciinema.org/a/477738.svg)](https://asciinema.org/a/477738)
 
 
 
@@ -74,7 +72,7 @@ apt-get autoremove tshark
 
 dpkg -L tshark
 
-[![查看tshark卸载情况](https://asciinema.org/a/LFrLQ737SjGWfDzG6az3wHP2b.svg)](https://asciinema.org/a/LFrLQ737SjGWfDzG6az3wHP2b)
+[![asciicast](https://asciinema.org/a/477750.svg)](https://asciinema.org/a/477750)
 
 
 
@@ -86,7 +84,7 @@ yum install tmux
 
 yum install wireshark(在CentOS中，没有单独的tshark安装包，它包含在wireshark中，因此只需安装wireshark。)
 
-[![asciicast](https://asciinema.org/a/Fhl97XnAens9oDQyvkZQsmpKh.svg)](https://asciinema.org/a/Fhl97XnAens9oDQyvkZQsmpKh)
+[![asciicast](https://asciinema.org/a/478112.svg)](https://asciinema.org/a/478112)
 
 PS:这里我安装的时候忘记录屏了，所以显示的是已经安装了
 
@@ -98,7 +96,7 @@ rpm -qal | grep tmux
 
 rpm -qal | grep wireshark
 
-[![asciicast](https://asciinema.org/a/mFUYvFccep8GmrZZH9TFRyVsM.svg)](https://asciinema.org/a/mFUYvFccep8GmrZZH9TFRyVsM)
+[![asciicast](https://asciinema.org/a/478114.svg)](https://asciinema.org/a/478114)
 
 
 
@@ -106,7 +104,7 @@ rpm -qal | grep wireshark
 
 yum -y remove wireshark
 
-[![asciicast](https://asciinema.org/a/bhjUIppeLMFTQXbE8qpnTMOv3.svg)](https://asciinema.org/a/bhjUIppeLMFTQXbE8qpnTMOv3)
+[![asciicast](https://asciinema.org/a/478116.svg)](https://asciinema.org/a/478116)
 
 
 
@@ -128,7 +126,9 @@ yum -y remove wireshark
 
 找到 /tmp 目录及其所有子目录下，文件内容包含 666 的所有文件:grep -r 666
 
-[![asciicast](https://asciinema.org/a/nmpDv9EKw45MGp4fCvB6DpfGS.svg)](https://asciinema.org/a/nmpDv9EKw45MGp4fCvB6DpfGS)
+[![asciicast](https://asciinema.org/a/478022.svg)](https://asciinema.org/a/478022)
+
+
 
 ### 阿里云：
 
@@ -136,7 +136,7 @@ yum -y remove wireshark
 
 找到 /tmp 目录及其所有子目录下，文件内容包含 666 的所有文件:sudo grep -r "666" ./ --exclude=*.cast
 
-[![asciicast](https://asciinema.org/a/17tTPpbKAJY9kLdUnyyOaxmdK.svg)](https://asciinema.org/a/17tTPpbKAJY9kLdUnyyOaxmdK)
+[![asciicast](https://asciinema.org/a/478119.svg)](https://asciinema.org/a/478119)
 
 
 
@@ -182,7 +182,7 @@ rar:	unrar examples.rar
 
 bzip2：bzip2 -d example.bz2
 
-[![asciicast](https://asciinema.org/a/Qhjy85SjfotePv9dLYDFe3sDV.svg)](https://asciinema.org/a/Qhjy85SjfotePv9dLYDFe3sDV)
+[![asciicast](https://asciinema.org/a/478059.svg)](https://asciinema.org/a/478059)
 
 ![各种解压缩后的文件](img/各种解压缩后的文件.png)
 
@@ -190,7 +190,7 @@ bzip2：bzip2 -d example.bz2
 
 ## 4、跟练：[子进程管理实验](https://asciinema.org/a/f3ux5ogwbxwo2q0wxxd0hmn54)
 
-[![asciicast](https://asciinema.org/a/Fnjm24gVnXkusCaciTJ0r0T3g.svg)](https://asciinema.org/a/Fnjm24gVnXkusCaciTJ0r0T3g)
+[![asciicast](https://asciinema.org/a/478094.svg)](https://asciinema.org/a/478094)
 
 
 
@@ -212,7 +212,9 @@ cat /proc/meminfo | grep MemTotal
 
 sudo fdisk -l | grep Disk
 
-[![asciicast](https://asciinema.org/a/4SeH560wjPWUO8DXj7aG51Zfg.svg)](https://asciinema.org/a/4SeH560wjPWUO8DXj7aG51Zfg)
+[![asciicast](https://asciinema.org/a/478103.svg)](https://asciinema.org/a/478103)
+
+
 
 ### 阿里云：
 
@@ -231,7 +233,7 @@ cat /proc/meminfo | grep MemTotal
 df -hl   (查看磁盘剩余空间)
 df -h    (展示文件系统信息)
 
-[![asciicast](https://asciinema.org/a/N3IeCvz1UqomjWWaHx1qT0X3l.svg)](https://asciinema.org/a/N3IeCvz1UqomjWWaHx1qT0X3l)
+[![asciicast](https://asciinema.org/a/478123.svg)](https://asciinema.org/a/478123)
 
 
 
@@ -289,7 +291,7 @@ sudo apt-get install tshark   命令成功
 
 其实是fg，就因为这个搞得我特别痛苦，果然无限流最可怕了。
 
-[![asciicast](https://asciinema.org/a/0xXky3eFg8X2wWZ1bAsOnMNo9.svg)](https://asciinema.org/a/0xXky3eFg8X2wWZ1bAsOnMNo9)
+[![asciicast](https://asciinema.org/a/478087.svg)](https://asciinema.org/a/478087)
 
 
 
@@ -305,17 +307,17 @@ bzip2不能压缩文件夹，只能压缩里面的文件，而且文件内容不
 
 ## 参考网址：
 
-https://asciinema.org/docs/installation
+【asciinema官网】https://asciinema.org/docs/installation
 
-https://blog.csdn.net/lunhui1994_/article/details/80546454
+【Linux的压缩和解压缩】https://blog.csdn.net/lunhui1994_/article/details/80546454
 
-https://blog.csdn.net/Three_dog/article/details/102497540
+【dpkg命令详解】https://blog.csdn.net/Three_dog/article/details/102497540
 
-https://blog.csdn.net/weixin_32597009/article/details/116555761
+【文件查找】https://blog.csdn.net/weixin_32597009/article/details/116555761
 
-https://blog.csdn.net/dream_broken/article/details/52883883?locationNum=10&fps=1
+【centOS7下实践查询版本/CPU/内存/硬盘容量等硬件信息】https://blog.csdn.net/dream_broken/article/details/52883883?locationNum=10&fps=1
 
-https://blog.csdn.net/weixin_42109925/article/details/116553434
+【获取linux硬盘空间总数命令,linux查询内存、CPU、硬盘等系统信息的命令】https://blog.csdn.net/weixin_42109925/article/details/116553434
 
 
 
